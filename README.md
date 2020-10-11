@@ -1,7 +1,7 @@
 # Challenge-19-A-Soup
-How many neurons and layers did you select for your neural network model? Why?
+# How many neurons and layers did you select for your neural network model? Why?
 I used two hidden layers, the reason is that I tried 3 layers and got similar results so for simplicity I stuck with two hidden layers. I also found that the more layers has a diminishing return result. I used 24 neurons for my first layer and 12 neurons for my second layer in two of my models then tweaked the numbers slightly for the other two with simalar results. I used 24 and 12 because that was what was in the examples in the module work.
-Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
+# Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
 I was close to target performance with 72% being my average accuracy score, but was not able to reach 75% even when I tried running 500 epochs. Steps I took to try and increase the model accuracy score were changing the activation section, changing number of hidden layers as well as changing the number of neurons. None of the combinations I tried resulted in 75%. It seemed as though 72% was my model's ceiling.
-If you were to implement a different model to solve this classification problem, which would you choose? Why?
+# If you were to implement a different model to solve this classification problem, which would you choose? Why?
 I would have chosen a linear model. The reason is that this is the only type of activation method I did not try. Also, it seemed to give accurate scores throughout the module, but I still do not think it would give me the desired 75% accuracy score. 
